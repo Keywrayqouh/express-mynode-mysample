@@ -1,0 +1,32 @@
+{
+  "name": "mqtt-node-express",
+  "version": "1.0.0",
+  "description": "MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keywrayqouh/mqtt-node-express.git"
+  },
+  "keywords": [
+    "mqtt",
+    "node",
+    "express"
+  ],
+  "author": "Kiray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keywrayqouh/mqtt-node-express/issues"
+  },
+  "homepage": "https://github.com/Keywrayqouh/mqtt-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0"
+  },
+  "engines": {
+    "node": "10.16"
+  }
+}
